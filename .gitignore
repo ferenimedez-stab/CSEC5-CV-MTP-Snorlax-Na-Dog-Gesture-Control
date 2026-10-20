@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+models/best.pt
+SnorlaxTheDog_Gestures/
+SnorlaxTheDog_Gestures-new/
+results/

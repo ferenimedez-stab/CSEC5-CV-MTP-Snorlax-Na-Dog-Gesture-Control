@@ -1,0 +1,13 @@
+# Local laptop environment (data prep, webcam demo, evaluation, report).
+# PyTorch / Ultralytics are NOT installed locally: Windows Application Control
+# blocks their DLLs on this laptop. Training runs on Google Colab
+# (src/training/train_colab.ipynb), and the trained model is exported to ONNX
+# and run locally with onnxruntime.
+opencv-python>=4.10
+numpy
+pandas
+matplotlib
+onnxruntime>=1.18
+python-docx>=1.1
+
+# Colab only (installed by the notebook): ultralytics>=8.3.0
